@@ -13,7 +13,7 @@ Sinatra Quick Start
 bundle install
 bundle exec rake -T
 bundle exec rake db:create
-bundle exec rake generate:migration NAME=create_user
+bundle exec rake generate:migration NAME=create_users
 ### Go into Migration Folder ###
 class CreateUsers < ActiveRecord::Migration
   def change
